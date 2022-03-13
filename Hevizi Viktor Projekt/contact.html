@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/google-fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+   <link rel="stylesheet" href="http://127.0.0.1:5500/menu.html">
+	<title>Pizza kod Viktora</title>
+</head>
+<body>
+	<!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+            <img src="logo.png" class="pizza"><h1 href="/" id="navbar__logo">Kod Viktora</h1>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="about.html" class="navbar__links">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="menu.html" class="navbar__links">Menu</a>
+            </li>
+            
+            
+            <li class="navbar__btn"><a href="contact.html" class="button">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(1.jpg) no-repeat;">
+            <div class="content">
+               <span>najbolja pizza</span>
+               <h3>originalni recepti</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(2.jpg) no-repeat;">
+            <div class="content">
+               <span>najbolja pizza</span>
+               <h3>jutarnja klopa</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(3.jpg) no-repeat;">
+            <div class="content">
+               <span>najbolja pizza</span>
+               <h3>mocni kuvari</h3>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+   <section id="contact" class="book-section img">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-7 make-reservation p-4 px-md-5 pb-md-5">
+                <div class="heading-section mb-5 text-center">
+                    <h2 class="mb-4">Make A Reservation</h2>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Name</label>
+                                <input type="text"class="form-control"
+                                placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input type="text" class="form-control"
+                                placeholder="Your Email">
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Phone</label>
+                                <input type="text" class="form-control"
+                                placeholder="Phone">
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Date</label>
+                                <input type="text" class="form-control"
+                               id="book-date" placeholder="Date">
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Time</label>
+                                <input type="text" class="form-control"
+                              id="book-time"  placeholder="Time">
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Person</label>
+                                <div class="select-wrap one-third">
+                                <!----    <div class="icon">
+                                        <i class="fa fa-arrow-down"></i>
+                                    </div>-->
+                                    <select name="" id="" class="form-control">
+                                        <option value="">Person</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="form-group text-center">
+                                <input type="submit" value="Make a Reservation"
+                                class="btn btn-book py-3 px-5">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+</body>
+</html>

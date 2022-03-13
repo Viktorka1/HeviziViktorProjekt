@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Istorija.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/google-fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+   <link rel="stylesheet" href="http://127.0.0.1:5500/menu.html">
+	<title>Pizza kod Viktora</title>
+</head>
+<body>
+	<!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+            <img src="logo.png" class="pizza"><h1 href="/" id="navbar__logo">Kod Viktora</h1>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="about.html" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="menu.html" class="navbar__links">Menu</a>
+          </li>
+          
+          
+          <li class="navbar__btn"><a href="contact.html" class="button">Contact</a></li>
+      
+        </ul>
+      </div>
+    </nav>
+
+    <!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(1.jpg) no-repeat;">
+            <div class="content">
+               <span>najbolja pizza</span>
+               <h3>originalni recepti</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(2.jpg) no-repeat;">
+            <div class="content">
+               <span>najbolja pizza</span>
+               <h3>jutarnja klopa</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(3.jpg) no-repeat;">
+            <div class="content">
+               <span>najbolja pizza</span>
+               <h3>mocni kuvari</h3>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+<section id="tori">
+   <div class="wrapper">
+       <div class="title">
+           <h4><span></span></h4>
+       </div>
+       <div class="row">
+         <div class="col-md-6">
+           <img src="3.jpg" class="kep3">  
+           </div>
+           <div class="col-md-6 text1">
+             <h2>Pizza</h2>
+             <p>Пица (итал. pizza) је специјалитет италијанске кухиње, најчешће направљен од танког, округлог теста на коме се поред парадајз соса могу наћи разне врсте сира, меса, поврћа, воћа, зачина и других састојака према укусу.[1] Инвентивност укуса се може надопунити и инвентивношћу распореда самих састојака на пици, који могу бити распоређени у облику орнамената или других интересантних фигура. Иначе, ово јело се сматра посебно карактеристичним за наполитанску кухињу.[2] Данас је пица веома популарно јело у свету, пре свега због јефтиних и лако доступних састојака и једноставности припреме.</p>  
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-6 text2">
+             <h2></h2>
+             <p>Прво појављивање пице датира из времена грчких колонија у јужној Италији (Магна Граециа), први пут се помиње у Вергилијевој Енеји. Тхе и. е. У свом делу о историји Рима у 3. веку, Марко Порције Катон Мајор помиње „равно дизано тесто заслађено маслиновим уљем, зачинима и медом и печено на камењу“ [1] У граду Помпеји, археолози су ископали претходнике данашњих модерних пицерија. Сомун за рођендане фараона ароматизоване биљем, који се појавио и у старом Египту, описао је грчки историчар Херодот, а ови вавилонски рецепти су били веома слични данашњем тесту за пицу [2] .
+
+              У средњем веку се 997. године појавила и реч пица, што је у то време једноставно значило пита. Пекари су га користили да виде да ли је рерна довољно загрејана пре печења хлеба. А када је хлеб био готов, искоришћена је топлота жеравице [3] .</p>
+           </div>
+           <div class="col-md-6">
+             <img src="2.jpg" class="kep5">
+           </div>
+         </div>
+       </div>
+</section>
+
+
+<!-- home section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+</body>
+</html>
