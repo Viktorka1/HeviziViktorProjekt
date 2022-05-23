@@ -1,2 +1,0 @@
-# HeviziViktorProjekt
-Projekt
